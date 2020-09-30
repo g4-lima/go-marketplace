@@ -8,11 +8,11 @@
   <a href="#getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<img alt="Layout" src="https://drive.google.com/file/d/191Sg_DP4REcnw5hyU3NXqmhumBe_YvGQ/view?usp=sharing">
+<img alt="Layout" src="https://s1.gifyu.com/images/GoMarketplace.gif">
 
 ## About project
 
-Shopping cart application, wich can increment and decrement items from the cart and able to calculate quantity of items and the total price.
+Shopping cart application, wich can increment and decrement items from the cart and able to calculate the quantity of items and the total price. </br>
 The aplicattion store and load products in Async Storage.
 
 Project developed as a challenge during the GoStack bootcamp by [Rocketseat](https://rocketseat.com.br/)
@@ -56,7 +56,7 @@ Run api service
 
 ```sh
 $ yarn start
-& yarn android / yarn ios
+$ yarn android / yarn ios
 
 ```
 
