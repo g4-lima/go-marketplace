@@ -21,6 +21,7 @@ import {
   TotalProductsContainer,
   TotalProductsText,
   SubtotalValue,
+  CleanButton,
 } from './styles';
 
 import { useCart } from '../../hooks/cart';
@@ -36,7 +37,7 @@ interface Product {
 }
 
 const Cart: React.FC = () => {
-  const { increment, decrement, products } = useCart();
+  const { increment, decrement, products, cleanCart } = useCart();
 
   function handleIncrement(id: string): void {
     increment(id);
@@ -44,6 +45,10 @@ const Cart: React.FC = () => {
 
   function handleDecrement(id: string): void {
     decrement(id);
+  }
+
+  function handleCleanCart(): void {
+    cleanCart();
   }
 
   const cartTotal = useMemo(() => {
@@ -59,7 +64,7 @@ const Cart: React.FC = () => {
     if (products) {
       const totalItems = products
         .map(product => product.quantity)
-        .reduce((total, curr) => (total += curr));
+        .reduce((total, curr) => (total += curr), 0);
 
       return totalItems;
     }
@@ -69,6 +74,9 @@ const Cart: React.FC = () => {
 
   return (
     <Container>
+      <CleanButton onPress={handleCleanCart}>
+        <FeatherIcon name="trash" color="#E83F5B" size={28} />
+      </CleanButton>
       <ProductContainer>
         <ProductList
           data={products}

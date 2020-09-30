@@ -2,8 +2,8 @@
   "products": [
     {
       "id": "123",
-      "title": "Nome do produto 01",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "title": "Camista Amarela",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDYOtOog_q6PI2Re81zkvdBORJ8MsG1tMgi1VuXAdtbnDKZKp_WPSj0vupRsXrzWC2daHAlu8&usqp=CAc",
       "price": 50
     },
     {

@@ -6,6 +6,16 @@ export const Container = styled.SafeAreaView`
   align-items: center;
 `;
 
+export const CleanButton = styled.TouchableOpacity`
+  background: rgba(232, 63, 91, 0.1);
+  border-radius: 5px;
+  padding: 8px;
+
+  left: 140px;
+  top: 10px;
+  margin: 0;
+`;
+
 export const ProductContainer = styled.View`
   border-radius: 5px;
   margin-top: 60px;
