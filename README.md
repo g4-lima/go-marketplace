@@ -8,7 +8,7 @@
   <a href="#getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<img align="center" height="400" alt="Layout" src="https://s1.gifyu.com/images/GoMarketplace.gif">
+<img align="center" height="550" alt="Layout" src="https://s1.gifyu.com/images/GoMarketplace.gif">
 
 ## About project
 
