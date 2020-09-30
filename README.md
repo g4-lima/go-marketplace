@@ -8,14 +8,14 @@
   <a href="#getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<img align="center" height="550" alt="Layout" src="https://s1.gifyu.com/images/GoMarketplace.gif">
+<img align="right" height="550" alt="Layout" src="https://s1.gifyu.com/images/GoMarketplace.gif">
 
 ## About project
 
 Shopping cart application, wich can increment and decrement items from the cart and able to calculate the quantity of items and the total price. </br>
 The aplicattion store and load products in Async Storage.
 
-Project developed as a challenge during the GoStack bootcamp by [Rocketseat](https://rocketseat.com.br/)
+Project developed as a challenge during the GoStack bootcamp by [Rocketseat](https://rocketseat.com.br/).
 
 ---
 
