@@ -15,7 +15,7 @@
 ## About project
 
 Shopping cart application, wich can increment and decrement items from the cart and able to calculate the quantity of items and the total price. </br>
-The aplicattion store and load products in Async Storage.
+The aplicattion uses Async Storage to store and load products.
 
 Project developed as a challenge during the GoStack bootcamp by [Rocketseat](https://rocketseat.com.br/).
 
