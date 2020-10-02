@@ -44,7 +44,7 @@ $ yarn
 ---
 
 
-### Backend (Fake API)
+### Backend
 
 ```sh
 $ yarn json-server server.json -p 3333
